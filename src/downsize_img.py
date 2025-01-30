@@ -2,7 +2,7 @@ from PIL import Image
 import os
 from pathlib import Path
 
-def downsize_images(folder_path, max_size=(1000, 800), quality=85):
+def downsize_images(folder_path, max_size=(800, 1000), quality=85):
     """
     Downsize all images in the specified folder that are larger than max_size.
     
@@ -57,5 +57,5 @@ def downsize_images(folder_path, max_size=(1000, 800), quality=85):
 
 if __name__ == "__main__":
     # Example usage
-    folder_to_process = "C:/github/loveshijian.github.io/_assets/images/shijian/shijian03"
+    folder_to_process = "C:/github/loveshijian.github.io/_assets/images/1"
     downsize_images(folder_to_process)
